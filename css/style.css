@@ -1,15 +1,21 @@
 .outer-div {
   width: 901px;
-  margin: 0 auto;
+  margin: 50 px auto;
 }
 
 header {
   overflow: auto;
   width: 100%;
   border-bottom: 10px solid transparent;
-  padding: 15px;
-  /*border-image: url("/img/hr-img.png") 50 round;*/
 }
+
+.border {
+  height: 10px;
+  background-image: url("/img/hr-img.png");
+  clear: both;
+  margin: 70px 0 0 0;
+}
+
 #logo-div {
   width: 50%;
   float: left;
@@ -18,29 +24,24 @@ header {
   float: left;
   margin-right: 8px;
 }
-#hrone {
-  background-image: url("/img/hr-img.png");
-  background-repeat: repeat-x;
-  background-size: 3px 10px;
-  width: 900px;
-  height: 50px;
-  left: 0px;
-  top: 80px;
-  bottom: 0;
-}
+
 #header-p1 {
-  font-size: 30px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
   font-style: italic;
   font-weight: bold;
   margin-bottom: 2px;
   margin-top: 0px;
+  position: relative;
+  top: -7px;
 }
 
 #header-p2 {
   font-size: 10px;
-  margin-top: 2px;
+  margin-top: -20px;
   color:gray;
 }
+
 #icon-div {
   width: 50%;
   float: right;
@@ -64,12 +65,16 @@ h1 {
   font-size: 40px;
   margin-top:15px;
   margin-bottom: 0px;
+
 }
+
 h5 {
   color: gray;
-  margin-top:5px;
+  margin-top:0px;
   width: 50%;
   float: left;
+  font-size: 13px;
+  font-weight: normal;
 }
 
 #print {
@@ -79,6 +84,8 @@ h5 {
   text-align: right;
   margin-top: 5px;
   font-size: 10px;
+  font-family: 'VT323', monospace;
+
 }
 
 article p {
@@ -140,7 +147,24 @@ button {
   background-color: rgb(185, 64, 16) ;
   font-size: 15px;
   float: right;
+  font-family: 'VT323', monospace;
 }
+
+.footer-border {
+  border-bottom: 1px rgb(211, 211, 211) solid;
+}
+
+.footer-border img {
+  border: 8px #ffffff solid;
+  position: relative;
+  top: 25px;
+}
+
 footer{
   text-align: center;
+}
+.copyright{
+  color: rgb(175, 175, 175);
+  font-family: 'VT323', monospace;
+  margin-top: 50px;
 }
